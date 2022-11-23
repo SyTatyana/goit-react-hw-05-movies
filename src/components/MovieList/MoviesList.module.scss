@@ -1,0 +1,25 @@
+.list {
+    padding: 0;
+}
+
+.title {
+    margin-bottom: 25px;
+    color: #1e4a79;
+}
+
+.item {
+    display: block;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.link {
+    color: #0d253f;
+
+    &:hover,
+    :focus {
+        color: #01b4e4;
+    }
+}

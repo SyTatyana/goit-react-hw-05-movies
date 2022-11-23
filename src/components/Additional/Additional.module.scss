@@ -1,0 +1,21 @@
+.title {
+    margin-bottom: 10px;
+    color:#2f6bac;
+}
+
+.item {
+    display: block;
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.link {
+    color: #0d253f;
+
+    &:hover,
+    :focus {
+        color: #01b4e4;
+    }
+}
